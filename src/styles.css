@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+.App {
+  font-family: "roboto", sans-serif;
+  text-align: center;
+}
+
+#io-div {
+  max-width: 600px;
+  margin: auto;
+}
+input {
+  width: 80%;
+  padding: 0.5rem 0rem;
+  margin-top: 1rem;
+}
+
+#meaning-p {
+  width: 80%;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-size: larger;
+  background-color: #333;
+  border-radius: 0.3rem;
+  color: white;
+}
+
+#emojis-div {
+  max-width: 600px;
+  margin: auto;
+  max-height: 30vh;
+  overflow: scroll;
+}
+
+li {
+  font-size: 2rem;
+  list-style: none;
+  display: inline;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+}
