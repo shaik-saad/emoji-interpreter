@@ -3,6 +3,10 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  background-color: #fef3c7;
+}
 .App {
   font-family: "roboto", sans-serif;
   text-align: center;
@@ -32,7 +36,7 @@ input {
   max-width: 600px;
   margin: auto;
   max-height: 30vh;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 li {
@@ -45,4 +49,38 @@ li {
 
 ul {
   padding: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+footer p {
+  display: inline;
+}
+
+#non-bullet-list {
+  list-style: none;
+  display: inline;
+  padding-left: 0;
+}
+
+.list-item-inline {
+  display: inline;
+}
+
+.social-link {
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fbbf24;
+}
+
+#copy-right a {
+  color: black;
 }
